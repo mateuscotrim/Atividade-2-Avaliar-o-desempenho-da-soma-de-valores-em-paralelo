@@ -131,6 +131,7 @@ Eficiência(p) = Speedup(p) / p
 
 *(Gráfico de Tempo de Execução do exemplo 01 disponível na pasta **img** no arquivo `/img/Tempo - Ex. 01.png`)*
 
+
 ![alt text](<img/Tempo - Ex. 02.png>)
 
 *(Gráfico de Tempo de Execução do exemplo 02 disponível na pasta **img** no arquivo `/img/Tempo - Ex. 02.png`)*
@@ -145,6 +146,7 @@ No arquivo com 1 milhão de números, o tempo paralelo foi sempre maior que o se
 
 *(Gráfico de Speedup do exemplo 01 disponível na pasta **img** no arquivo `/img/SpeedUP - Ex. 01.png`)*
 
+
 ![alt text](<img/SpeedUP - Ex. 02.png>)
 
 *(Gráfico de Speedup do exemplo 02 disponível na pasta **img** no arquivo `/img/SpeedUP - Ex. 02.png`)*
@@ -158,6 +160,7 @@ O gráfico mostra a linha do speedup ideal (linear) e o speedup real obtido. Com
 ![alt text](<img/Eficiencia - Ex. 01.png>)
 
 *(Gráfico de Eficiência do exemplo 01 disponível na pasta **img** no arquivo `/img/Eficiencia - Ex. 01.png`)*
+
 
 ![alt text](<img/Eficiencia - Ex. 02.png>)
 
