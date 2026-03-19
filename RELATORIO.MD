@@ -128,9 +128,11 @@ Eficiência(p) = Speedup(p) / p
 # 7. Gráfico de Tempo de Execução
 
 ![alt text](<img/Tempo - Ex. 01.png>)
+
 *(Gráfico de Tempo de Execução do exemplo 01 disponível na pasta **img** no arquivo `/img/Tempo - Ex. 01.png`)*
 
 ![alt text](<img/Tempo - Ex. 02.png>)
+
 *(Gráfico de Tempo de Execução do exemplo 02 disponível na pasta **img** no arquivo `/img/Tempo - Ex. 02.png`)*
 
 No arquivo com 1 milhão de números, o tempo paralelo foi sempre maior que o serial — ou seja, usar mais processos deixou o programa mais lento. Já com 10 milhões de números, o tempo caiu bastante ao adicionar processos, chegando ao melhor resultado com 8 processos.
@@ -140,9 +142,11 @@ No arquivo com 1 milhão de números, o tempo paralelo foi sempre maior que o se
 # 8. Gráfico de Speedup
 
 ![alt text](<img/SpeedUP - Ex. 01.png>)
+
 *(Gráfico de Speedup do exemplo 01 disponível na pasta **img** no arquivo `/img/SpeedUP - Ex. 01.png`)*
 
 ![alt text](<img/SpeedUP - Ex. 02.png>)
+
 *(Gráfico de Speedup do exemplo 02 disponível na pasta **img** no arquivo `/img/SpeedUP - Ex. 02.png`)*
 
 O gráfico mostra a linha do speedup ideal (linear) e o speedup real obtido. Com 10 milhões de números e 8 processos, conseguimos um speedup de 3,12×, bem abaixo do ideal de 8×. Com 1 milhão de números, o speedup ficou abaixo de 1,0 em todos os casos.
@@ -152,9 +156,11 @@ O gráfico mostra a linha do speedup ideal (linear) e o speedup real obtido. Com
 # 9. Gráfico de Eficiência
 
 ![alt text](<img/Eficiencia - Ex. 01.png>)
+
 *(Gráfico de Eficiência do exemplo 01 disponível na pasta **img** no arquivo `/img/Eficiencia - Ex. 01.png`)*
 
 ![alt text](<img/Eficiencia - Ex. 02.png>)
+
 *(Gráfico de Eficiência do exemplo 02 disponível na pasta **img** no arquivo `/img/Eficiencia - Ex. 02.png`)*
 
 A eficiência caiu conforme aumentamos o número de processos. O melhor resultado foi 74,7% com 2 processos no arquivo de 10 milhões. Com 12 processos, a eficiência caiu para 25,8%, mostrando que a maior parte do tempo estava sendo "desperdiçada" com o custo de coordenar os processos.
